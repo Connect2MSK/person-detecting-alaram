@@ -1,12 +1,15 @@
 {
+  "homepage": "https://github.com/Connect2MSK/person-detecting-alaram",
   "name": "objectdetector",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "mpn",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.2.3",
