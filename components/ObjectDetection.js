@@ -25,7 +25,7 @@ function ObjectDetection() {
       const detectedObject = await net.detect(
         webCamRef.current.video,
         undefined,
-        0.6
+        0.4
       );
       const context = canvsRef.current.getContext("2d");
       renderPredictions(detectedObject, context);
